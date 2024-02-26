@@ -1,0 +1,86 @@
+.center {
+    text-align: center;
+    /* コンテンツを中央揃え */
+}
+
+.border {
+    display: flex;
+    list-style: none;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: rgb(210, 201, 201);
+    width: 500px;
+    margin: auto;
+}
+
+.border:hover {
+    background-image: url(javascript\li-bg-hover.jpg);
+    color: black;
+}
+
+.button {
+    font-family: serif;
+    font-size: 12px;
+    padding: 7px 10px;
+    border-right: 1px solid;
+    border-color: rgb(210, 201, 201);
+
+}
+
+.heikou {
+    display: flex;
+    margin: auto;
+    max-width: 900px;
+}
+
+.box {
+    width: 1000px;
+    margin-right: 30px;
+}
+
+.font {
+    font-size: 13.4px;
+}
+
+.box2 {
+    border: 3px solid;
+    border-radius: 5px;
+    border-color: rgb(210, 201, 201);
+    background-color: rgb(234, 234, 234);
+    padding: 10px;
+    padding-bottom: 40px;
+}
+
+.heikou2 {
+    display: flex;
+    width: 400px;
+    height: 45px; 
+}
+
+.heikou3 {
+    display: flex;
+    margin: auto;
+    max-width: 900px;
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+
+.font2 {
+    font-size: 12px;
+    padding-right: 25px;
+}
+
+body { 
+    margin: 0; /* ボディの余白を削除 */
+    padding: 0; /* ボディのパディングを削除 */
+    background-image: url(javascript\li-bg.jpg);
+}
+
+.logo_img{
+    float: left;
+    padding-left: 200px;
+}
+
+.hover_img{
+    margin-right: 350px;
+}
